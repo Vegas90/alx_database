@@ -1,2 +1,3 @@
----show databases
+/*CONNECT*/
 SHOW DATABASES;
+

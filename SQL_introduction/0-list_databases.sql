@@ -1,3 +1,3 @@
---connect
+--  connect
 SHOW DATABASES;
 

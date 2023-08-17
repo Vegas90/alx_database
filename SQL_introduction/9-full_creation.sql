@@ -7,13 +7,13 @@ CREATE TABLE second_table(
 
 
 INSERT INTO second_table(int, name, score)
-values(1, 'John', 10);
+VALUES(1, 'John', 10);
 
 INSERT INTO second_table(int, name, score)
-values(2, 'Alex', 3);
+VALUES(2, 'Alex', 3);
 
 INSERT INTO second_table(int, name, score)
-values(3, 'Bob', 14);
+VALUES(3, 'Bob', 14);
 INSERT INTO second_table(int, name, score)
-values(4, 'George', 8);
+VALUES(4, 'George', 8);
 

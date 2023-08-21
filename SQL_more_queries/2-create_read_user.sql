@@ -1,7 +1,11 @@
---CONTENT
+-- Create the database if it doesn't exist
+CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
 
-CREATE SCHEMA IF NOT EXISTS hbtn_0d_2;
-
+-- Create the user if it doesn't exist
 CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';
-GRANT SELECT ON *hbtn_0d_2.* TO 'user_0d_`2'@'localhost'; 
+
+-- Grant SELECT privilege to the user on the specific database
+GRANT SELECT ON hbtn_0d_2.* TO 'user_0d_2'@'localhost';
+
+-- Flush privileges to apply changes
 FLUSH PRIVILEGES;

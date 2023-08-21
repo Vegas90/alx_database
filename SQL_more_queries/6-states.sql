@@ -1,7 +1,7 @@
 -- content
 CREATE DATABASE IF NOT EXISTS htbn_0d_usa;
 
-use htbn_0d_usa;
+USE htbn_0d_usa;
 CREATE TABLE IF NOT EXISTS states(
     id INT UNIQUE AUTO_INCREMENT NOT NULL PRIMARY KEY,
     name VARCHAR(256) NOT NULL
